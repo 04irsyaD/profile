@@ -13,18 +13,23 @@
       
 }
 
+b{
+    margin-left: 7vw;
+}
+
+
 
 li, a, button{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
 
 }
 
 header {
-    width: 1898px;
+    width: 100vw;
     height: 50px;
     background-color: brown;
     display: flex;
@@ -55,11 +60,13 @@ cursor: pointer;
 }
 .nav_links li a h1:hover{
     color: white;
-    background-color:blue;
+    background-color: purple;
+    
 }
 button{
-    padding: 9px 25px;
-    background-color:blue;
+    margin-right: 7vw;
+   padding: 7px 50px;
+    background-color:purple;
     border: none;
     border-radius: 50px;
     cursor:pointer;
@@ -69,8 +76,8 @@ button:hover {
     background-color: rgba(0,136,169,0)
 }
 .image {
-    width: 25%;
-    height: 60%;
+    width: 25vw;
+    height: 55vh;
     position: absolute;
     bottom: 15%;
     right: 10px;
@@ -230,12 +237,14 @@ h3{
 .pra p {
     color: #fcfc;
     font-size: 16px;
-    line-height: 27px;
-    margin-bottom: 25px;
+    height: 100px;
+    line-height: 30px;
+    margin-bottom: 40px;
     text-align: justify;
 
 }
 .pra p a{
+    
     background-color: red;
     color: white;
     border: 2px solid white;
@@ -263,7 +272,7 @@ h3{
     text-align: left;
 }
 .skill-box {
-    text-align: right;
+    text-align: left;
     width: 100%;
     background-color: white;
 }
@@ -273,28 +282,25 @@ h3{
 }
 .css {
     width: 30%;
-    background-color: red;
+    background-color: blueviolet;
 }
-.java{
-    width: 50%;
-    background-color: red;
-}
+
 
 .php{
     width: 30%;
-    background-color: red;
+    background-color: orange;
 }
 .game{
   width: 60%;
-  background-color: red;
+  background-color: rgb(255, 0, 204);
 }
 .olahraga{
     width: 30%;
-    background-color: red;
+    background-color: rgb(0, 255, 42);
 }
 .baca{
     width: 10%;
-    background-color: red;
+    background-color: rgb(0, 234, 255);
 }
 
 .contact-me {
